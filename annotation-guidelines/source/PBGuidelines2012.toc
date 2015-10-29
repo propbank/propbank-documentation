@@ -1,0 +1,78 @@
+\contentsline {chapter}{\numberline {1}Verb Annotation Instructions}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}PropBank Annotation Goals}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Sense Annotation}{4}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Frame Files}{4}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}ER: Error roleset}{6}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}IE: Idiomatic Expression roleset}{7}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}DP: Duplicate indicator roleset}{7}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}LV: Light Verb roleset}{7}{subsection.1.2.5}
+\contentsline {subsection}{\numberline {1.2.6}What to do when there is no frame file}{7}{subsection.1.2.6}
+\contentsline {section}{\numberline {1.3}Annotation of Numbered Arguments}{8}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Choosing ARG0 versus ARG1}{8}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}ARGA: Secondary Agent}{9}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.4}Annotation of Modifiers}{10}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Comitatives (COM)}{10}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Locatives (LOC)}{11}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}Directional (DIR)}{11}{subsection.1.4.3}
+\contentsline {subsection}{\numberline {1.4.4}Goal (GOL)}{12}{subsection.1.4.4}
+\contentsline {subsection}{\numberline {1.4.5}Manner (MNR)}{13}{subsection.1.4.5}
+\contentsline {subsection}{\numberline {1.4.6}Temporal (TMP)}{13}{subsection.1.4.6}
+\contentsline {subsection}{\numberline {1.4.7}Extent (EXT)}{13}{subsection.1.4.7}
+\contentsline {subsection}{\numberline {1.4.8}Reciprocals (REC)}{14}{subsection.1.4.8}
+\contentsline {subsection}{\numberline {1.4.9}Secondary Predication (PRD)}{14}{subsection.1.4.9}
+\contentsline {subsection}{\numberline {1.4.10}Purpose Clauses (PRP)}{15}{subsection.1.4.10}
+\contentsline {subsection}{\numberline {1.4.11}Cause Clauses (CAU)}{16}{subsection.1.4.11}
+\contentsline {subsection}{\numberline {1.4.12}Discourse (DIS)}{16}{subsection.1.4.12}
+\contentsline {subsection}{\numberline {1.4.13}Modals (MOD)}{17}{subsection.1.4.13}
+\contentsline {subsection}{\numberline {1.4.14}Negation (NEG)}{18}{subsection.1.4.14}
+\contentsline {subsection}{\numberline {1.4.15}Direct Speech (DSP)}{18}{subsection.1.4.15}
+\contentsline {subsection}{\numberline {1.4.16}Adverbials (ADV)}{20}{subsection.1.4.16}
+\contentsline {subsection}{\numberline {1.4.17}Adjectival (ADJ)}{20}{subsection.1.4.17}
+\contentsline {subsection}{\numberline {1.4.18}Light Verb (LVB)}{20}{subsection.1.4.18}
+\contentsline {subsection}{\numberline {1.4.19}Construction (CXN)}{20}{subsection.1.4.19}
+\contentsline {section}{\numberline {1.5}Span of Annotation}{20}{section.1.5}
+\contentsline {section}{\numberline {1.6}Where to Place Tags}{25}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}Exceptions to Normal Tag Placement}{25}{subsection.1.6.1}
+\contentsline {section}{\numberline {1.7}Understanding and Annotating Null Elements in the Penn TreeBank}{26}{section.1.7}
+\contentsline {subsection}{\numberline {1.7.1}Passive Sentences}{27}{subsection.1.7.1}
+\contentsline {subsection}{\numberline {1.7.2}Fronted and Dislocated Arguments}{28}{subsection.1.7.2}
+\contentsline {subsection}{\numberline {1.7.3}Questions and Wh-Phrases}{29}{subsection.1.7.3}
+\contentsline {subsection}{\numberline {1.7.4}Interpret Constituent Here (ICH) Traces}{30}{subsection.1.7.4}
+\contentsline {subsection}{\numberline {1.7.5}Right Node Raising (RNR) Traces}{31}{subsection.1.7.5}
+\contentsline {subsection}{\numberline {1.7.6}It EXtraPosition (EXP)}{34}{subsection.1.7.6}
+\contentsline {subsection}{\numberline {1.7.7}Other Traces}{36}{subsection.1.7.7}
+\contentsline {section}{\numberline {1.8}Linking and Annotation of Null Elements}{37}{section.1.8}
+\contentsline {subsection}{\numberline {1.8.1}SeLectional Constraint Link (Link SLC)}{37}{subsection.1.8.1}
+\contentsline {subsubsection}{Relative Clause Annotation}{37}{section*.2}
+\contentsline {paragraph}{Typical Relative Clauses}{37}{section*.3}
+\contentsline {subsection}{\numberline {1.8.2}Pragmatic Coreference Link (Link-PCR)}{37}{subsection.1.8.2}
+\contentsline {subsubsection}{Reduced Relative Annotation}{37}{section*.4}
+\contentsline {subsubsection}{Annotation of PRO}{38}{section*.5}
+\contentsline {subsection}{\numberline {1.8.3}Concatenation of multiple nodes into one argument}{41}{subsection.1.8.3}
+\contentsline {subsection}{\numberline {1.8.4}Special cases of topicalization}{42}{subsection.1.8.4}
+\contentsline {section}{\numberline {1.9}Special Cases: small clauses and sentential complements}{43}{section.1.9}
+\contentsline {section}{\numberline {1.10}Handling common features of spoken data}{44}{section.1.10}
+\contentsline {subsection}{\numberline {1.10.1}Disfluencies and Edited Nodes}{44}{subsection.1.10.1}
+\contentsline {subsection}{\numberline {1.10.2}Asides: PRN nodes}{46}{subsection.1.10.2}
+\contentsline {chapter}{\numberline {2}Light Verb Annotation}{47}{chapter.2}
+\contentsline {section}{\numberline {2.1}Pass 1: Verb Pass}{47}{section.2.1}
+\contentsline {section}{\numberline {2.2}Pass 2: Noun Pass}{49}{section.2.2}
+\contentsline {section}{\numberline {2.3}Examples}{49}{section.2.3}
+\contentsline {section}{\numberline {2.4}Tricky Cases}{51}{section.2.4}
+\contentsline {chapter}{\numberline {3}Noun Annotation Instructions}{53}{chapter.3}
+\contentsline {section}{\numberline {3.1}Span of Annotation}{53}{section.3.1}
+\contentsline {section}{\numberline {3.2}Annotation of Numbered Arguments}{55}{section.3.2}
+\contentsline {section}{\numberline {3.3}Annotation of Modifiers}{55}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Adjectival modifiers (ADJ)}{56}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Secondary Predication modifiers (PRD)}{56}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Exceptions to Annotation: Determiners and Other Noun Relations}{57}{section.3.4}
+\contentsline {section}{\numberline {3.5}.YY Roleset}{57}{section.3.5}
+\contentsline {chapter}{\numberline {4}Adjectival Predicate Annotation Instructions}{59}{chapter.4}
+\contentsline {section}{\numberline {4.1}Span of Annotation}{59}{section.4.1}
+\contentsline {section}{\numberline {4.2}Annotation of Arguments}{59}{section.4.2}
+\contentsline {section}{\numberline {4.3}Annotating Constructions}{59}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Comparative Constructions}{60}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Degree Construction}{61}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}The Xer the Yer Construction}{62}{subsection.4.3.3}
+\contentsline {chapter}{\numberline {A}Jubilee Hotkeys}{63}{appendix.A}
+\contentsline {chapter}{References}{65}{table.A.2}

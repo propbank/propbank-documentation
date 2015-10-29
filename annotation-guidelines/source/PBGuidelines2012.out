@@ -1,0 +1,74 @@
+\BOOKMARK [0][-]{chapter.1}{Verb Annotation Instructions}{}% 1
+\BOOKMARK [1][-]{section.1.1}{PropBank Annotation Goals}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Sense Annotation}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.2.1}{Frame Files}{section.1.2}% 4
+\BOOKMARK [2][-]{subsection.1.2.2}{ER: Error roleset}{section.1.2}% 5
+\BOOKMARK [2][-]{subsection.1.2.3}{IE: Idiomatic Expression roleset}{section.1.2}% 6
+\BOOKMARK [2][-]{subsection.1.2.4}{DP: Duplicate indicator roleset}{section.1.2}% 7
+\BOOKMARK [2][-]{subsection.1.2.5}{LV: Light Verb roleset}{section.1.2}% 8
+\BOOKMARK [2][-]{subsection.1.2.6}{What to do when there is no frame file}{section.1.2}% 9
+\BOOKMARK [1][-]{section.1.3}{Annotation of Numbered Arguments}{chapter.1}% 10
+\BOOKMARK [2][-]{subsection.1.3.1}{Choosing ARG0 versus ARG1}{section.1.3}% 11
+\BOOKMARK [2][-]{subsection.1.3.2}{ARGA: Secondary Agent}{section.1.3}% 12
+\BOOKMARK [1][-]{section.1.4}{Annotation of Modifiers}{chapter.1}% 13
+\BOOKMARK [2][-]{subsection.1.4.1}{Comitatives \(COM\)}{section.1.4}% 14
+\BOOKMARK [2][-]{subsection.1.4.2}{Locatives \(LOC\)}{section.1.4}% 15
+\BOOKMARK [2][-]{subsection.1.4.3}{Directional \(DIR\)}{section.1.4}% 16
+\BOOKMARK [2][-]{subsection.1.4.4}{Goal \(GOL\)}{section.1.4}% 17
+\BOOKMARK [2][-]{subsection.1.4.5}{Manner \(MNR\)}{section.1.4}% 18
+\BOOKMARK [2][-]{subsection.1.4.6}{Temporal \(TMP\)}{section.1.4}% 19
+\BOOKMARK [2][-]{subsection.1.4.7}{Extent \(EXT\)}{section.1.4}% 20
+\BOOKMARK [2][-]{subsection.1.4.8}{Reciprocals \(REC\)}{section.1.4}% 21
+\BOOKMARK [2][-]{subsection.1.4.9}{Secondary Predication \(PRD\)}{section.1.4}% 22
+\BOOKMARK [2][-]{subsection.1.4.10}{Purpose Clauses \(PRP\)}{section.1.4}% 23
+\BOOKMARK [2][-]{subsection.1.4.11}{Cause Clauses \(CAU\)}{section.1.4}% 24
+\BOOKMARK [2][-]{subsection.1.4.12}{Discourse \(DIS\)}{section.1.4}% 25
+\BOOKMARK [2][-]{subsection.1.4.13}{Modals \(MOD\)}{section.1.4}% 26
+\BOOKMARK [2][-]{subsection.1.4.14}{Negation \(NEG\)}{section.1.4}% 27
+\BOOKMARK [2][-]{subsection.1.4.15}{Direct Speech \(DSP\)}{section.1.4}% 28
+\BOOKMARK [2][-]{subsection.1.4.16}{Adverbials \(ADV\)}{section.1.4}% 29
+\BOOKMARK [2][-]{subsection.1.4.17}{Adjectival \(ADJ\)}{section.1.4}% 30
+\BOOKMARK [2][-]{subsection.1.4.18}{Light Verb \(LVB\)}{section.1.4}% 31
+\BOOKMARK [2][-]{subsection.1.4.19}{Construction \(CXN\)}{section.1.4}% 32
+\BOOKMARK [1][-]{section.1.5}{Span of Annotation}{chapter.1}% 33
+\BOOKMARK [1][-]{section.1.6}{Where to Place Tags}{chapter.1}% 34
+\BOOKMARK [2][-]{subsection.1.6.1}{Exceptions to Normal Tag Placement}{section.1.6}% 35
+\BOOKMARK [1][-]{section.1.7}{Understanding and Annotating Null Elements in the Penn TreeBank}{chapter.1}% 36
+\BOOKMARK [2][-]{subsection.1.7.1}{Passive Sentences}{section.1.7}% 37
+\BOOKMARK [2][-]{subsection.1.7.2}{Fronted and Dislocated Arguments}{section.1.7}% 38
+\BOOKMARK [2][-]{subsection.1.7.3}{Questions and Wh-Phrases}{section.1.7}% 39
+\BOOKMARK [2][-]{subsection.1.7.4}{Interpret Constituent Here \(ICH\) Traces}{section.1.7}% 40
+\BOOKMARK [2][-]{subsection.1.7.5}{Right Node Raising \(RNR\) Traces}{section.1.7}% 41
+\BOOKMARK [2][-]{subsection.1.7.6}{It EXtraPosition \(EXP\)}{section.1.7}% 42
+\BOOKMARK [2][-]{subsection.1.7.7}{Other Traces}{section.1.7}% 43
+\BOOKMARK [1][-]{section.1.8}{Linking and Annotation of Null Elements}{chapter.1}% 44
+\BOOKMARK [2][-]{subsection.1.8.1}{SeLectional Constraint Link \(Link SLC\)}{section.1.8}% 45
+\BOOKMARK [2][-]{subsection.1.8.2}{Pragmatic Coreference Link \(Link-PCR\)}{section.1.8}% 46
+\BOOKMARK [2][-]{subsection.1.8.3}{Concatenation of multiple nodes into one argument}{section.1.8}% 47
+\BOOKMARK [2][-]{subsection.1.8.4}{Special cases of topicalization}{section.1.8}% 48
+\BOOKMARK [1][-]{section.1.9}{Special Cases: small clauses and sentential complements}{chapter.1}% 49
+\BOOKMARK [1][-]{section.1.10}{Handling common features of spoken data}{chapter.1}% 50
+\BOOKMARK [2][-]{subsection.1.10.1}{Disfluencies and Edited Nodes}{section.1.10}% 51
+\BOOKMARK [2][-]{subsection.1.10.2}{Asides: PRN nodes}{section.1.10}% 52
+\BOOKMARK [0][-]{chapter.2}{Light Verb Annotation}{}% 53
+\BOOKMARK [1][-]{section.2.1}{Pass 1: Verb Pass}{chapter.2}% 54
+\BOOKMARK [1][-]{section.2.2}{Pass 2: Noun Pass}{chapter.2}% 55
+\BOOKMARK [1][-]{section.2.3}{Examples}{chapter.2}% 56
+\BOOKMARK [1][-]{section.2.4}{Tricky Cases}{chapter.2}% 57
+\BOOKMARK [0][-]{chapter.3}{Noun Annotation Instructions}{}% 58
+\BOOKMARK [1][-]{section.3.1}{Span of Annotation}{chapter.3}% 59
+\BOOKMARK [1][-]{section.3.2}{Annotation of Numbered Arguments}{chapter.3}% 60
+\BOOKMARK [1][-]{section.3.3}{Annotation of Modifiers}{chapter.3}% 61
+\BOOKMARK [2][-]{subsection.3.3.1}{Adjectival modifiers \(ADJ\)}{section.3.3}% 62
+\BOOKMARK [2][-]{subsection.3.3.2}{Secondary Predication modifiers \(PRD\)}{section.3.3}% 63
+\BOOKMARK [1][-]{section.3.4}{Exceptions to Annotation: Determiners and Other Noun Relations}{chapter.3}% 64
+\BOOKMARK [1][-]{section.3.5}{.YY Roleset}{chapter.3}% 65
+\BOOKMARK [0][-]{chapter.4}{Adjectival Predicate Annotation Instructions}{}% 66
+\BOOKMARK [1][-]{section.4.1}{Span of Annotation}{chapter.4}% 67
+\BOOKMARK [1][-]{section.4.2}{Annotation of Arguments}{chapter.4}% 68
+\BOOKMARK [1][-]{section.4.3}{Annotating Constructions}{chapter.4}% 69
+\BOOKMARK [2][-]{subsection.4.3.1}{Comparative Constructions}{section.4.3}% 70
+\BOOKMARK [2][-]{subsection.4.3.2}{Degree Construction}{section.4.3}% 71
+\BOOKMARK [2][-]{subsection.4.3.3}{The Xer the Yer Construction}{section.4.3}% 72
+\BOOKMARK [0][-]{appendix.A}{Jubilee Hotkeys}{}% 73
+\BOOKMARK [0][-]{table.A.2}{References}{}% 74

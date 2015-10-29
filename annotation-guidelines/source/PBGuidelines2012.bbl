@@ -1,0 +1,43 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citename{Butt}2003]{butt-93}
+Miriam Butt.
+\newblock 2003.
+\newblock The light verb jungle.
+\newblock In C.~Bowern G.~Aygen and C.~Quinn, editors, {\em Papers from the
+  GSAS/Dudley House Workshop on Light Verbs.}, pages 1--50. Cambridge, Harvard
+  Working Papers in Linguists.
+
+\bibitem[\protect\citename{Choi \bgroup et al.\egroup }2009]{choi-09b}
+Jinho~D. Choi, Claire Bonial, and Martha Palmer.
+\newblock 2009.
+\newblock Jubilee: Propbank instance editor guideline (version 2.1).
+\newblock Technical Report 01-09, Institute of Cognitive Science, the
+  University of Colorado at Boulder.
+
+\bibitem[\protect\citename{Dowty}1991]{dowty-91}
+David Dowty.
+\newblock 1991.
+\newblock Thematic proto-roles and argument selection.
+\newblock {\em Language}, 67(1):547--619.
+
+\bibitem[\protect\citename{Levin and Hovav}1995]{levin-95}
+Beth Levin and M.~Rappaport Hovav.
+\newblock 1995.
+\newblock {\em Unaccusativity: At the Syntax-Lexical Semantics Interface;
+  Linguistic Inquiry Monograph}.
+\newblock MIT Press.
+
+\bibitem[\protect\citename{Marcus \bgroup et al.\egroup }1993]{marcus-93a}
+Mitchell~P. Marcus, Mary~Ann Marcinkiewicz, and Beatrice Santorini.
+\newblock 1993.
+\newblock Building a large annotated corpus of english: the penn treebank.
+\newblock {\em Computational Linguistics}, 19(2):313--330.
+
+\bibitem[\protect\citename{Palmer \bgroup et al.\egroup }2005]{palmer-05a}
+Martha Palmer, Daniel Gildea, and Paul Kingsbury.
+\newblock 2005.
+\newblock The proposition bank: An annotated corpus of semantic roles.
+\newblock {\em Computational Linguistics}, 31(1):71--106.
+
+\end{thebibliography}
