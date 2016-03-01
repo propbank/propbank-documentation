@@ -5,7 +5,7 @@ Propbank has often been annotated in a rolling manner, so this is a bit of a pos
 MAJOR version number changes express full systemic changes that include formatting differences; they require not just retraining but perhaps recoding. There are only three:
 * **1.x** The "Verbs" era: Propbank 1 releases in which everything is a verb by default (no encoding of POS). 
 * **2.x** Part-of-Speech separation era: Frame files have a -n, -j, or -v suffix which encodes their part of speech.
-* **3.x** Unification era: Frame files have "unified" rolesets representing multiple lemmas.  
+* **3.x** Unification era: Frame files have "unified" rolesets representing multiple lemmas, and "alias" fields which encode those lemmas and their parts of speech.
 
 #### Propbank 2.0 (Ontonotes/BOLT)
 Within 2.0, we had many many different releases of frames. 
