@@ -1,7 +1,5 @@
 ### Propbank versioning
 
-Propbank has often been annotated in a rolling manner, so this is a bit of a post-hoc versioning of prior work.  
-
 MAJOR version number changes express full systemic changes that include formatting differences; they require not just retraining but perhaps recoding. There are only three:
 * **1.x** The "Verbs" era: Propbank 1 releases in which everything is a verb by default (no encoding of POS). 
 * **2.x** Part-of-Speech separation era: Frame files have a -n, -j, or -v suffix which encodes their part of speech.
