@@ -1,6 +1,7 @@
-** Make an issue (or email timjogorman@gmail.com) if this is missing a relevant paper!**
+# Propbank Bibliography
+**Make an issue (or email timjogorman@gmail.com) if this is missing a relevant paper!**
  
-## Propbank Annotation and Analysis Papers
+### Propbank Annotation and Analysis Papers
 
 * Claire Bonial, Julia Bonn, Kathryn Conger, Jena Hwang and Martha Palmer (2014) PropBank: Semantics of New Predicate Types. The 9th edition of the Language Resources and Evaluation Conference. Reykjavik, Iceland.
 
@@ -24,19 +25,27 @@
 
 * Kingsbury, Paul, Benjamin Snyder, Nianwen Xue, Martha Palmer. "PropBank as a Bootstrap for Richer Annotation Schemes." The 6th Workshop on Interlinguas: Annotations and Translations, in conjunction with MT Summit 2003. New Orleans, LA: 2003.
 
+
+* Palmer, Martha, Dan Gildea, Paul Kingsbury. The Proposition Bank: An Annotated Corpus of Semantic Roles. Computational Linguistics, 31:1., pp. 71-105, March, 2005.
+
+* Palmer, Martha, Dan Gildea, and Paul Kingsbury. The Proposition Bank: A Corpus Annotated with Semantic Roles. Computational Linguistics Journal, 31:1. 2005. pp. 71-105.
+
+* Babko-Malaya, Olga, Martha Palmer, Nianwen Xue, Aravind Joshi, and Seth Kulick. Proposition Bank II: Delving Deeper. Frontiers in Corpus Annotation, Workshop in conjunction with HLT/NAACL. May 6, 2004, Boston, MA: 2004.
+
 * Kingsbury, Paul, Martha Palmer, and Mitch Marcus. Adding Predicate Argument Structure to the Penn TreeBank. The Second International Human Language Technology Conference, HLT-02. March 24-27, 2002, San Diego, CA: 2002.
 
 * Kingsbury, Paul and Martha Palmer. From Treebank to Propbank. , Third International Conference on Language Resources and Evaluation, LREC-02., May 28- June 3, 2002, Las Palmas, Canary Islands, Spain: 2002.
 
 * Palmer, Martha, Joseph Rosenzwieg and Scott Cotton. Automatic Predicate Argument Analysis of the Penn TreeBank. , Proceedings of HLT 2001, First International nce on Human Language Technology Research. 5pg., J. Allan, ed., Morgan Kaufmann. San Francisco: 2001.
 
-## Nombank  (a related resource)
+
+### Nombank  (a related resource)
 
 * Meyers, Adam, et al. "The NomBank project: An interim report." HLT-NAACL 2004 workshop: Frontiers in corpus annotation. 2004.
 
-## Other Propbanks
+### Other Propbanks
 
-### Hindi/Urdu Propbank Annotation
+##### Hindi/Urdu Propbank Annotation
 
 * Ashwini Vaidya, Jinho D. Choi, Martha Palmer and Bhuvana Narasimhan, Empty Argument Insertion in the Hindi PropBank, In the Proceedings of LREC-2012, Instanbul, Turkey, May, 2012
 
@@ -45,7 +54,7 @@
 * Bhatt, Rajesh, et al. "A multi-representational and multi-layered treebank for hindi/urdu." Proceedings of the Third Linguistic Annotation Workshop. Association for Computational Linguistics, 2009.
 
 
-### Arabic Propbank Annotation
+##### Arabic Propbank Annotation
 
 * Zaghouani, Wajdi, Abdelati Hawwari, and Mona Diab. "A pilot propbank annotation for Quranic Arabic." NAACL-HLT 2012 (2012): 78.
 
@@ -57,13 +66,8 @@
 
 * Diab, Mona, Musa Alkhalifa, Sabry ElKateb, Christiane Fellbaum, Aous Mansouri, Martha Palmer. SemEval-2007 Task 18: Arabic Semantic Labeling. Proceedings of the Fourth International Workshop on Semantic Evaluations (SemEval-2007)held in conjunction with ACL-2007. June, 2007, Prague, the Czech Republic: 2007.
 
-* Palmer, Martha, Dan Gildea, Paul Kingsbury. The Proposition Bank: An Annotated Corpus of Semantic Roles. Computational Linguistics, 31:1., pp. 71-105, March, 2005.
 
-* Palmer, Martha, Dan Gildea, and Paul Kingsbury. The Proposition Bank: A Corpus Annotated with Semantic Roles. Computational Linguistics Journal, 31:1. 2005. pp. 71-105.
-
-* Babko-Malaya, Olga, Martha Palmer, Nianwen Xue, Aravind Joshi, and Seth Kulick. Proposition Bank II: Delving Deeper. Frontiers in Corpus Annotation, Workshop in conjunction with HLT/NAACL. May 6, 2004, Boston, MA: 2004.
-
-### Chinese Propbank Annotation
+##### Chinese Propbank Annotation
 
 * Xue,Nianwen, and Martha Palmer. Adding semantic roles to the Chinese Treebank. Natural Language Engineering. 15(1) 2009:143-172.
 
@@ -71,37 +75,37 @@
 
 * Xue, Nianwen and Martha Palmer. Annotating the Propositions in the Penn Chinese Treebank. Second SIGHAN Workshop on Chinese Language Processing, held in conjunction with ACL-03. July, 21-26, 2004, Sapporo, Japan: 2004. pp. 47-54.
 
-### Korean Propbank 
+##### Korean Propbank 
 
 * Palmer, Martha, et al. "Korean propbank." LDC Catalog No.: LDC2006T03 ISBN (2006): 1-58563.
 
-### Brazilian Portuguese Propbank
+##### Brazilian Portuguese Propbank
 
 * Duran, Magali Sanches, and Sandra Maria Aluísio. "Propbank-Br: a Brazilian Treebank annotated with semantic role labels." LREC. 2012.
 
 * Alva-Manchego, Fernando Emilio, and João Luís G. Rosa. "Semantic Role Labeling for Brazilian Portuguese: A Benchmark." Advances in Artificial Intelligence–IBERAMIA 2012. Springer Berlin Heidelberg, 2012. 481-490.
 
-### Finnish Propbank 
+##### Finnish Propbank 
 
 * Haverinen, Katri, et al. "Dependency-based propbanking of clinical Finnish." Proceedings of the Fourth Linguistic Annotation Workshop. Association for Computational Linguistics, 2010.
 
-### French Propbank
+##### French Propbank
 
 * Van der Plas, Lonneke, Paola Merlo, and James Henderson. "Scaling up automatic cross-lingual semantic role annotation." Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies: short papers-Volume 2. Association for Computational Linguistics, 2011.
 
 * Van der Plas, Lonneke, Tanja Samardžić, and Paola Merlo. "Cross-lingual validity of PropBank in the manual annotation of French." Proceedings of the Fourth Linguistic Annotation Workshop. Association for Computational Linguistics, 2010.
 
-### Spanish Ancora Annotation
+##### Spanish Ancora Annotation
 
 * Peris, Aina, Mariona Taulé, and Horacio Rodríguez. "Semantic annotation of deverbal nominalizations in the spanish corpus ancora." The Ninth International Workshop on Treebanks and Linguistic Theories. Vol. 9. Northen European Association for Language Technology (NEALT), 2010.
 
 * Taulé, Mariona, Maria Antònia Martí, and Marta Recasens. "AnCora: Multilevel Annotated Corpora for Catalan and Spanish." In LREC. 2008.
 
-### Parallel Propbank Works
+##### Parallel Propbank Works
 
 * Choi,Jinho D., Martha Palmer and Nianwen Xue. Using Parallel PropBanks to enhance Word-alignments. ACL-IJCNLP. 2009, Singapore: Linguistic Annotation Workshop, 2009.
 
-## Linking Propbanks to Other Resources
+### Linking Propbanks to Other Resources
 
 * Palmer, Martha. "Semlink: Linking PropBank, VerbNet and FrameNet". Proceedings of the Generative Lexicon Conference. Sept. 2009, Pisa, Italy: GenLex-09, 2009.
 
