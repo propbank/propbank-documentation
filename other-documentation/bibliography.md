@@ -1,7 +1,25 @@
 # Propbank Bibliography
 **Make an issue (or email timjogorman@gmail.com) if this is missing a relevant paper!**
+
+## Original Propbank Papers
+* Palmer, Martha, Dan Gildea, Paul Kingsbury. The Proposition Bank: An Annotated Corpus of Semantic Roles. Computational Linguistics, 31:1., pp. 71-105, March, 2005.
+
+* Palmer, Martha, Dan Gildea, and Paul Kingsbury. The Proposition Bank: A Corpus Annotated with Semantic Roles. Computational Linguistics Journal, 31:1. 2005. pp. 71-105.
+
+* Babko-Malaya, Olga, Martha Palmer, Nianwen Xue, Aravind Joshi, and Seth Kulick. Proposition Bank II: Delving Deeper. Frontiers in Corpus Annotation, Workshop in conjunction with HLT/NAACL. May 6, 2004, Boston, MA: 2004.
+
+* Kingsbury, Paul, and Martha Palmer. PropBank: The Next Level of TreeBank. The Second Workshop on Treebanks and Linguistic Theories,(TLT 2003). Nov, 2003, Växjö, Sweden: 2003. 
+
+* Kingsbury, Paul, Benjamin Snyder, Nianwen Xue, Martha Palmer. "PropBank as a Bootstrap for Richer Annotation Schemes." The 6th Workshop on Interlinguas: Annotations and Translations, in conjunction with MT Summit 2003. New Orleans, LA: 2003.
+
+* Kingsbury, Paul, Martha Palmer, and Mitch Marcus. Adding Predicate Argument Structure to the Penn TreeBank. The Second International Human Language Technology Conference, HLT-02. March 24-27, 2002, San Diego, CA: 2002.
+
+* Kingsbury, Paul and Martha Palmer. From Treebank to Propbank. , Third International Conference on Language Resources and Evaluation, LREC-02., May 28- June 3, 2002, Las Palmas, Canary Islands, Spain: 2002.
+
+* Palmer, Martha, Joseph Rosenzwieg and Scott Cotton. Automatic Predicate Argument Analysis of the Penn TreeBank. , Proceedings of HLT 2001, First International nce on Human Language Technology Research. 5pg., J. Allan, ed., Morgan Kaufmann. San Francisco: 2001.
+
  
-### Propbank Annotation and Analysis Papers
+### More Recent Propbank Annotation and Analysis Papers
 
 * Claire Bonial, Julia Bonn, Kathryn Conger, Jena Hwang and Martha Palmer (2014) PropBank: Semantics of New Predicate Types. The 9th edition of the Language Resources and Evaluation Conference. Reykjavik, Iceland.
 
@@ -21,22 +39,6 @@
 
 * Pradhan, Sameer, Eduard Hovy, Mitch Marcus, Martha Palmer, Lance Ramshaw and Ralph Weischedel. OntoNotes: A Unified Relational Semantic Representation., First IEEE International Conference on Semantic Computing Proceedings. Sep 17-19, 2007, Irvine, CA:2007. Best Paper Award.
 
-* Kingsbury, Paul, and Martha Palmer. PropBank: The Next Level of TreeBank. The Second Workshop on Treebanks and Linguistic Theories,(TLT 2003). Nov, 2003, Växjö, Sweden: 2003. 
-
-* Kingsbury, Paul, Benjamin Snyder, Nianwen Xue, Martha Palmer. "PropBank as a Bootstrap for Richer Annotation Schemes." The 6th Workshop on Interlinguas: Annotations and Translations, in conjunction with MT Summit 2003. New Orleans, LA: 2003.
-
-
-* Palmer, Martha, Dan Gildea, Paul Kingsbury. The Proposition Bank: An Annotated Corpus of Semantic Roles. Computational Linguistics, 31:1., pp. 71-105, March, 2005.
-
-* Palmer, Martha, Dan Gildea, and Paul Kingsbury. The Proposition Bank: A Corpus Annotated with Semantic Roles. Computational Linguistics Journal, 31:1. 2005. pp. 71-105.
-
-* Babko-Malaya, Olga, Martha Palmer, Nianwen Xue, Aravind Joshi, and Seth Kulick. Proposition Bank II: Delving Deeper. Frontiers in Corpus Annotation, Workshop in conjunction with HLT/NAACL. May 6, 2004, Boston, MA: 2004.
-
-* Kingsbury, Paul, Martha Palmer, and Mitch Marcus. Adding Predicate Argument Structure to the Penn TreeBank. The Second International Human Language Technology Conference, HLT-02. March 24-27, 2002, San Diego, CA: 2002.
-
-* Kingsbury, Paul and Martha Palmer. From Treebank to Propbank. , Third International Conference on Language Resources and Evaluation, LREC-02., May 28- June 3, 2002, Las Palmas, Canary Islands, Spain: 2002.
-
-* Palmer, Martha, Joseph Rosenzwieg and Scott Cotton. Automatic Predicate Argument Analysis of the Penn TreeBank. , Proceedings of HLT 2001, First International nce on Human Language Technology Research. 5pg., J. Allan, ed., Morgan Kaufmann. San Francisco: 2001.
 
 
 ### Nombank  (a related resource)
