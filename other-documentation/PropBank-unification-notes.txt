@@ -1,6 +1,7 @@
-PropBank Unification Documentation - July 2015 - by Tim O'Gorman
+### PropBank Unification Documentation
+(July 2015 - by Tim O'Gorman)
 
-The new Unified (AMR-style) PropBank rolesets:
+#### The new Unified (AMR-style) PropBank rolesets:
 
 Prior PropBank frame files, and the rolesets (individual senses) 
 within them, were subtyped by part of speech tags, and gave 
@@ -15,7 +16,7 @@ are now closer to a representation of an actual concept, and
 represent the different forms that the roleset might take with a 
 new "alias" element that expresses its possible realizations.
 
-Alias field conventions and assumptions:
+##### Alias field conventions and assumptions:
 
 * Aliases represent a set of etymologically related lemmas that 
   might be used to refer to that particular roleset.
@@ -36,7 +37,7 @@ Alias field conventions and assumptions:
   as "spirited") or nouns ending in "-ing" (such as "accounting") 
   do not have those suffixes removed.
 
-Roleset naming conventions and assumptions:
+#### Roleset naming conventions and assumptions:
 
 * Since there are many possible lemmas for each roleset, one can 
   no longer assume that the roleset name and the lemma in the 
@@ -54,7 +55,7 @@ Roleset naming conventions and assumptions:
 * Roleset names default to American spelling conventions whenever
   there are multiple spelling variants.
 
-Factors Determining Which Old Rolesets were Merged
+#### Factors Determining Which Old Rolesets were Merged
 
 * When combining different parts of speech into the new unified 
   rolesets, senses were merged only if they were etymologically 
@@ -66,7 +67,7 @@ Factors Determining Which Old Rolesets were Merged
   but strong differences, such as the difference between causative 
   verbs and states (as in "blacken" and "black") were left separate.
 
-PropBank Frame File conventions:
+#### PropBank Frame File conventions:
 
 * Rolesets are clustered into frame files with the intent that 
   relatively simple heuristics should be able to find the frame 
