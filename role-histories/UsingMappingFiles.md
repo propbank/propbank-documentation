@@ -9,19 +9,18 @@ These mapping files are simple TSV files with the following format, from the "pb
 settlement-n	settlement.01	settlement	n	settle	settle.02	3:3	2:2	0:0	1:1
 ```
 
-The first two columns define the starting point.  We are therefore talking about roleset "settlement.01", from the file "settlement-n.xml", in the 2.1.5 Propbank release.  
+The first two columns define the starting point.  We are therefore talking about roleset "settlement.01", from the file "settlement-n.xml", in the 2.1.5 Propbank release.   The third and forth columns simply define the lemma and POS of the predicate, and can generally be extracted automatically from the frame file name with non-unified files.
 
-The third and forth columns (almost always redundant) simply define what you expect to see as the lemma of the predicate, and the part of speech of the predicate.  This is largely only needed if one is attempting to convert Propbank 3.1 data back to earlier formats.  In this case, if you saw "settle.02" in pb3.1, you would know that if the part of speech was nominal and the lemma was "settlement", then in 2.1.5 it would map back to "settlement.01" in the settlement-n.xml frame. 
+The fifth and sixth columns are the frame file name and the roleset name in the newer format -- in this case, Propbank 3.1 -- that are being converted to. 
 
-The fifth and sixth columns are the frame file name and the roleset name in the newer format -- in this case, Propbank 3.1 . 
-
-Finally, all columns beyond the sixth are simply mappings of the form <old argument>:<new argument>. That means that "ARG2" in settlment.01 becomes "ARG2" in settle.02. 
+Finally, all columns beyond the sixth are simply mappings of the form "old argument":"new argument". Therefore ```2:2``` measn that "ARG2" of settlment.01 becomes "ARG2" in settle.02. 
 
 A more complicated example would be:
 
 ```
 ambulation-n	ambulation.01	ambulation	n	ambulate	ambulate.01	1:0	2:1	3:gol
 ```
+
 That means that if you had an instance of "ambulation.01" in Propbank 2.1.5 with an ARG1, and ARG2, and ARG3, they would become ARG0, ARG1, and ARGM-GOL, respectively. 
 
 ### This is not one-to-one
