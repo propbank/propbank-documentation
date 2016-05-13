@@ -25,12 +25,8 @@ That means that if you had an instance of "ambulation.01" in Propbank 2.1.5 with
 
 ### This is not one-to-one
 
-Both the mappings from roleset to roleset and the mappings from argument to argument are potentially many-to-many mappings.  A few rolesets have been split. The most frequent sense that we split is know.01
+Both the mappings from roleset to roleset and the mappings from argument to argument are potentially many-to-many mappings.  A few rolesets have been split. Moreover, some arguments might have multiple options -- you might see, for example, ``` 1:1	1:2```, which would mean that old ARG1 is now either ARG1 or ARG2, and needs to be manually disambiguated.
 
-```
-know-v	know.01	know	v	know	know.01	1:1	2:2	0:0
-know-v	know.01	know	v	know	know.02	2:deletion	1:1	0:0	2:0
-```
 
 ### Two kinds of deletion
 
