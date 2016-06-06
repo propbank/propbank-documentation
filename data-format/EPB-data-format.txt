@@ -2,15 +2,14 @@ Data Format for the English PropBank
 
 A PropBank file contains PropBank instances (one instance per line), where each instance is represented by the following format.
 
-<instance>   ::= <tree_path> <tree_id> <predicate_id> <annotator_id> <lemma>-<type> <lemma>.<roleset_id> <aspects>( <argument>)+
+<instance>   ::= <tree_path> <tree_id> <predicate_id> <annotator_id> <framefile> <lemma>.<roleset_id> <aspects>( <argument>)+
 <argument>   ::= <terminal_id>:<height>-<label>
 
 <tree_path>    ::= path to the Treebank file
 <tree_id>      ::= index of the tree containing the predicate (starts with 0, indicating the 1st tree in <tree_path>)
 <predicate_id> ::= terminal ID of the predicate (starts with 0, indicating the 1st terminal node of the tree)
 <annotator_id> ::= ID of the annotator (default for adjudicated instances: gold)
-<lemma>        ::= lemma of the predicate
-<type>         ::= type of the predicate (a: adjective, n: noun, v: verb)
+<framefile>    ::= name of the frame file to consult for this roleset
 <roleset_id>   ::= sense ID of the predicate, LV for light verb, ER for treebank error, and DP for every verb gap construction
 <aspects>      ::= no longer used (default: -----)
 <terminal_id>  ::= ID of the 1st terminal node in this argument
@@ -19,11 +18,11 @@ A PropBank file contains PropBank instances (one instance per line), where each 
 
 
 Example 1:
-Here is an example based on PropBank file (wsj_0001.prop). The first instance indicates a verb-predicate "join" (join-v) whose roleset ID is "join.01", which is the 9th terminal node (predicate_id = 8) of the 1st tree (tree_id = 0) in the Treebank file, wsj_0001.parse.
+Here is an example based on PropBank file (wsj_0001.prop). The first instance indicates a verb-predicate "join" (join) whose roleset ID is "join.01", which is the 9th terminal node (predicate_id = 8) of the 1st tree (tree_id = 0) in the Treebank file, wsj_0001.parse.
 
-wsj_0001.parse 0 8 gold join-v join.01 ----- 0:2-ARG0 7:0-ARGM-MOD 8:0-rel 9:1-ARG1 11:1-ARGM-PRD 15:1-ARGM-TMP
-wsj_0001.parse 1 2 gold be-v be.01 ----- 0:1-ARG1 2:0-rel 3:2-ARG2
-wsj_0001.parse 1 10 gold publish-v publish.01 ----- 10:0-rel 11:0-ARG0
+wsj_0001.parse 0 8 gold join join.01 ----- 0:2-ARG0 7:0-ARGM-MOD 8:0-rel 9:1-ARG1 11:1-ARGM-PRD 15:1-ARGM-TMP
+wsj_0001.parse 1 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:2-ARG2
+wsj_0001.parse 1 10 gold publish publish.01 ----- 10:0-rel 11:0-ARG0
 
 The argument "9:1-ARG1" indicates the phrase, "(NP (DT the) (NN board))", in the tree (see below) because "(DT the)" is the 10th terminal node and "(NP (DT the) (NN board))" has a height 1 from this terminal node.
 
@@ -57,8 +56,8 @@ Description: problematic syntactic annotation that causes problems in semantic a
 Label: DP  (e.g. cut.DP) 
 Description: Additional predicate structure for verb gap construction
 Example:
-   bolt-eng-DF-200-192451-5796409.xml.tree 6 5 gold compare-v compare.01 ----- 2:1-ARG0 5:0-rel 6:1-ARG1 7:1-ARG2
-   bolt-eng-DF-200-192451-5796409.xml.tree 6 5 gold compare-v compare.DP ----- 2:1-ARG0 5:0-rel 10:1-ARG1 11:1-ARG2
+   bolt-eng-DF-200-192451-5796409.xml.tree 6 5 gold compare compare.01 ----- 2:1-ARG0 5:0-rel 6:1-ARG1 7:1-ARG2
+   bolt-eng-DF-200-192451-5796409.xml.tree 6 5 gold compare compare.DP ----- 2:1-ARG0 5:0-rel 10:1-ARG1 11:1-ARG2
 
    0: (TOP (SBARQ (WHADVP-1 (WRB Where))
    1:             (SQ (VBP are)
@@ -89,8 +88,8 @@ Example:
 Label: LV (e.g. make.LV)
 Description: marks a verb as a light verb in a light verb construction
 Example:
-  bolt-eng-DF-203-185940-348657.xml.tree 71 1 gold make-v make.LV ----- 1:0-rel 3:0-ARGM-PRR  
-  bolt-eng-DF-203-185940-348657.xml.tree 71 3 gold run-n run.05 ----- 0:1-ARG0 1:0,3:0-rel 4:1-ARGM-GOL
+  bolt-eng-DF-203-185940-348657.xml.tree 71 1 gold make make.LV ----- 1:0-rel 3:0-ARGM-PRR  
+  bolt-eng-DF-203-185940-348657.xml.tree 71 3 gold run run.16 ----- 0:1-ARG0 3:0-rel 4:1-ARGM-GOL 1:0-ARGM-LVB
 
    0: (TOP (S (NP-SBJ (PRP We))
    1:         (VP (VP (VBD made)
@@ -104,7 +103,7 @@ Example:
    9:                 (ADVP (RB back))))
   10:         (. .)))
 
-  The light verb construction here is "made a run". The verb 'make' is a semantically bleached verb that acts in concert with the noun 'run' to form a single predicate. The verb pointer, thus, marks the 'make' as a light verb (make.LV) and the verb and the noun are concatenated together as a single predicate under the noun annotation (run.05).
+  The light verb construction here is "made a run". The verb 'make' is a semantically bleached verb that acts in concert with the noun 'run' to form a single predicate. The verb pointer, thus, marks the 'make' as a light verb (make.LV) and the noun marks the verb as a light verb with a ARGM-LVB annotation.
 
 
 
