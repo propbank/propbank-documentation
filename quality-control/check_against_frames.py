@@ -146,9 +146,10 @@ if args.pointers:
 	targetfile = args.pointers
 	check_against_frames(targetfile, framefiles)
 elif args.projectdir:
-	for eachfile in os.listdir(args.projectdir):
-		targetfile = args.projectdir+"/"+eachfile
-		framesloadedinmemory = check_against_frames(targetfile, framefiles, framesloadedinmemory)
+	for eachfolder, __, filelist in os.walk(args.projectdir):
+		for eachfile in filelist:
+			targetfile = eachfolder+"/"+eachfile
+			framesloadedinmemory = check_against_frames(targetfile, framefiles, framesloadedinmemory)
 elif args.allprojects:
 	for eachproject in os.listdir(args.allprojects+"/corrected-raw-gold/"):
 		if os.path.exists(args.allprojects+"/corrected-raw-gold/"+eachproject+"/prop/"):
