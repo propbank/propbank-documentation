@@ -72,21 +72,22 @@ PropBank is a corpus in which the arguments of each predicate are annotated with
 [\textit{John}]$_{ARG0}$ \textit{broke} [\textit{the window}]$_{ARG1}$ \\ \relax
 [\textit{The window}]$_{ARG1}$ \textit{broke}
 
-\noindent As this example shows, the arguments of the verbs are labeled as numbered arguments: ARG0, ARG1, ARG2, and so on.  The argument structure of each predicate is outlined in the PropBank frame file for that predicate.  The frame file gives both semantic and syntactic information about each sense of the predicate lemmas that have been encountered thus far in PropBank annotation.  The frame file also denotes the correspondences between numbered arguments and semantic roles, as this is somewhat unique for each predicate.  Numbered arguments reflect either the arguments that are required for the valency of a predicate (e.g., agent, patient, benefactive), or if not required, those that occur with high-frequency in actual usage.  Although numbered arguments correspond to slightly different semantic roles given the usage of each predicate, in general numbered arguments correspond to the following semantic roles: 
+\noindent As this example shows, the arguments of the verbs are labeled as numbered arguments: ARG0, ARG1, ARG2, and so on.  The argument structure of each predicate is outlined in the PropBank frame file for that predicate.  The frame file gives both semantic and syntactic information about each sense of the predicate lemmas that have been encountered thus far in PropBank annotation.  The frame file also denotes the correspondences between numbered arguments and semantic roles, as this information is somewhat unique for each predicate. Each numbered argument is labeled with a semantically descriptive name, as well as a three-letter function tag taken from the list used for modifier annotation, described below. Numbered arguments reflect either the arguments that are required for the valency of a predicate (e.g., agent, patient, benefactive), or if not required, those that occur with high-frequency in actual usage.  Although numbered arguments correspond to slightly different semantic roles given the usage of each predicate, in general, numbered arguments correspond to the following semantic roles: 
 
 \begin{table}[htp]
 \centering
 \begin{tabular}{|c|c||c|c|}
-\hline ARG0 & agent   & ARG3 & starting point, benefactive, attribute\\
-\hline ARG1 & patient & ARG4 & ending point\\
-\hline ARG2 & instrument, benefactive, attribute & ARGM & modifier\\
+\hline ARG0 & agent   & ARG4 & ending point\\
+\hline ARG1 & patient & ARG5 & direction, attribute\\
+\hline ARG2 & instrument, benefactive, attribute, end state, extent & ARG6 & attribute\\
+\hline ARG3 & starting point, benefactive, attribute   & ARGM & modifier\\
 \hline 
 \end{tabular}
 \caption{List of arguments in PropBank}
 \label{tbl:arguments}
 \end{table}
 
-\noindent In addition to numbered arguments, another task of PropBank annotation involves assigning functional tags to all modifiers of the verb, such as manner (MNR), locative (LOC), temporal (TMP) and others:
+\noindent In addition to numbered arguments, another task of PropBank annotation involves assigning ARGM functional tags to all modifiers of the verb, such as manner (MNR), locative (LOC), temporal (TMP) and others:
 
 \textit{Mr. Bush met him privately, in the White House, on Thursday.} \\
 REL:  met \\
@@ -96,11 +97,20 @@ ARGM-MNR: privately \\
 ARGM-LOC: in the White House \\
 ARGM-TMP: on Thursday
 
-\noindent And, finally, PropBank annotation involves finding antecedents for empty arguments of the verbs, as illustrated below:
+\noindent While these tags are used to provide semantic information about modifiers in annotation, they are also used within each frame file to provide an extra layer of semantic information about each numbered argument. Most of the numbered arguments fit neatly into one of the categories described by the function tags, with the notable exceptions of ARG0 and ARG1, which tend to correspond to agent/cause/stimulus and patient/theme/experiencer thematic roles. As these concepts will always be represented with a numbered argument in PropBank annotation, there are no corresponding tags used with modifiers that can then also be used on numbered arguments. To fill this gap in numbered argument function tagging, we have added tags called PAG and PPT, which are modeled after Dowty’s Proto-Agent and Proto-Patient roles, respectively (Dowty, 1991). A Proto-Agent is the most agent-like argument in a frame file, and a Proto-Patient is the most patient-like argument in a frame file. Since not all frame files contain an arg0, it is possible to have another numbered argument, usually ARG1, assigned a PAG function tag. Frame files are only allowed one PAG role, although those with multiple co-patient or co-theme type numbered arguments are allowed to have multiple PPT function tags. Any numbered arguments that do not fit neatly into the remaining function tag categories are assigned a tag of VSP, which denotes a Verb-SPecific role. Consider the following example of the frame file, with function tags, for  \textit{unify}:
+
+Roleset \texttt{unify.01}, \textit{join together}:\\
+ARG0-PAG: joiner, agent\\
+ARG1-PPT: first (or all) thing(s) unified\\
+ARG2-PPT: second thing unified\\
+ARG3-VSP: unification in what domain\\
+ARG4-PRD: unified whole
+
+\noindent Finally, PropBank annotation involves finding antecedents for empty arguments of the verbs, as illustrated below:
 
 \textit{I made a decision [*PRO*] to leave.}
 
-\noindent The subject of the verb leave in this example is represented as an empty category [*] in TreeBank. In PropBank, all empty categories which could be co-referred with a NP within the same sentence are linked in co-reference chains:
+\noindent The subject of the verb \textit{leave} in this example is represented as an empty category [*] in TreeBank. In PropBank, all empty categories which could be co-referred with a NP within the same sentence are linked in co-reference chains:
 
 REL: 	leave\\
 ARG0: 	[*PRO*]  * [I]
@@ -129,15 +139,15 @@ ARG1: further declines in interest rates
 
 \noindent For some verbs, it is impossible to provide one set of semantic roles for all senses of the verb. For example, the two senses of the verb \textit{leave} in the examples below take different arguments: 
 
-\textit{Mary left the room}\\
-\textit{Mary left her daughter-in-law her pearls in her will}
+\textit{Mary left the room.}\\
+\textit{Mary left her daughter-in-law her pearls in her will.}
 
 \noindent In such cases, frame files distinguish two or more verb senses, which are called framesets or rolesets (this term is interchangeable, depending on what language is being annotated), and define argument labels specific to each frameset: 
 
-Roleset \texttt{leave.01}, \textit{move away from}:\\
-ARG0: entity leaving\\
-ARG1: place left\\
-ARG2: attribute of ARG1
+Roleset \texttt{leave.11}, \textit{depart}:\\
+ARG0: entity in motion\\
+ARG1: location vacated\\
+ARG2: destination location
 
 Roleset \texttt{leave.02}, \textit{give}:\\
 ARG0: giver \\
