@@ -21,6 +21,8 @@
  
 ### More Recent Propbank Annotation and Analysis Papers
 
+* Sameer Pradhan, Julia Bonn, Skatje Myers, Kathryn Conger, Tim O’gorman, James Gung, Kristin Wright-bettner, and Martha Palmer. 2022. PropBank Comes of Age—Larger, Smarter, and more Diverse. In Proceedings of the 11th Joint Conference on Lexical and Computational Semantics, pages 278–288, Seattle, Washington. Association for Computational Linguistics.
+
 * Claire Bonial, Julia Bonn, Kathryn Conger, Jena Hwang and Martha Palmer (2014) PropBank: Semantics of New Predicate Types. The 9th edition of the Language Resources and Evaluation Conference. Reykjavik, Iceland.
 
 * Daniel Peterson, Martha Palmer, Shumin Wu, (2014) Focusing Annotation for Semantic Role Labeling, The 9th edition of the Language Resources and Evaluation Conference. Reykjavik, Iceland.
